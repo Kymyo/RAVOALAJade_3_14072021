@@ -131,6 +131,10 @@ body, html {
   animation-delay: 0.5s;
 }
 
+.tuto__step:hover {
+  background-color: #e0c6ff;
+}
+
 .local {
   display: flex;
   justify-content: center;
@@ -245,6 +249,7 @@ body, html {
   background-color: #f6f6f6;
   padding: 2rem 1rem;
 }
+
 .cards {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -255,6 +260,10 @@ body, html {
   .cards {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+.card:hover {
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.5);
 }
 
 .card {
@@ -275,7 +284,7 @@ body, html {
 }
 .card__badge {
   background-color: #99E2D0;
-  color: #1b6150;
+  color: white;
   padding: 0.5rem;
   border-radius: 0.125rem;
   position: absolute;
@@ -418,7 +427,6 @@ body, html {
   font-weight: normal;
 }
 .submenu__title::after {
-  content: "";
   width: 3rem;
   height: 0.25rem;
   background-color: #99E2D0;
@@ -488,7 +496,7 @@ body, html {
   justify-content: center;
   border-radius: 100px;
   transform: rotate(180deg);
-  transition-duration: 0.5s;
+  transition-duration: 0.8s;
 }
 .menuItem:hover .menuItem__wrapIcon {
   transform: rotate(0);
