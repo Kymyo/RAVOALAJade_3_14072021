@@ -354,7 +354,7 @@ body, html {
   position: relative;
 }
 .menu__header {
-  padding: 1rem 2rem 0 1rem;
+  padding: 1rem rem 0 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -404,6 +404,12 @@ body, html {
 }
 .menu__btn:hover .menu__like--noBg {
   opacity: 0;
+}
+
+.bar {
+  width: 40px;
+  height: 2px;
+  background-color: #99e2d0;
 }
 
 .submenus {
