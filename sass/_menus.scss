@@ -144,7 +144,6 @@
   box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
   overflow: hidden;
   cursor: pointer;
-  animation: itemAppear 1s;
   animation-timing-function: cubic-bezier(0,0,0,1) forwards;
   animation-fill-mode: both;
   transform: scale(0);
@@ -215,11 +214,56 @@
   }
 }
 
-@for $i from 0 to 9 {
-  .delay-#{$i} {
-    animation-delay:  0.10s;
-  }
+.delay-0 {
+  animation: itemAppear 0.5s;
+  animation-fill-mode: forwards;
 }
+
+.delay-1 {
+  animation: itemAppear 1s;
+  animation-fill-mode: forwards;
+}
+
+.delay-2 {
+  animation: itemAppear 1.5s;
+  animation-fill-mode: forwards;
+}
+
+.delay-3 {
+  animation: itemAppear 2s;
+  animation-fill-mode: forwards;
+}
+
+.delay-4 {
+  animation: itemAppear 2.5s;
+  animation-fill-mode: forwards;
+}
+
+.delay-5 {
+  animation: itemAppear 3s;
+  animation-fill-mode: forwards;
+}
+
+.delay-6 {
+  animation: itemAppear 3.5s;
+  animation-fill-mode: forwards;
+}
+
+.delay-7 {
+  animation: itemAppear 4s;
+  animation-fill-mode: forwards;
+}
+
+.delay-8 {
+  animation: itemAppear 4.5s;
+  animation-fill-mode: forwards;
+}
+
+.delay-9 {
+  animation: itemAppear 5s;
+  animation-fill-mode: forwards;
+}
+
 
 .wrapBtn {
   display: flex;
