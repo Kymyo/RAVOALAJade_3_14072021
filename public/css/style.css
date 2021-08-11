@@ -356,7 +356,7 @@ body, html {
   position: relative;
 }
 .menu__header {
-  padding: 1rem rem 0 1rem;
+  padding: 1rem 0 1rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -455,7 +455,6 @@ body, html {
   box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
   overflow: hidden;
   cursor: pointer;
-  animation-timing-function: cubic-bezier(0, 0, 0, 1) forwards;
   animation-fill-mode: both;
   transform: scale(0);
   max-width: 100%;
