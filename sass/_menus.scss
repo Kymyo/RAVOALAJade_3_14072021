@@ -79,14 +79,13 @@
     transition-duration: .25s;
     background-color: #f6f6f6;
     position: absolute;
-    top: 0;
-    left: 0;
     height: 100%;
     width: 100%;
     display:flex;
     align-items:center;
     justify-content:center;
     mix-blend-mode: lighten;
+    border: #f6f6f6 1px solid;
   }
 
   &__btn:hover {
