@@ -35,6 +35,10 @@ body, html {
   scroll-behavior: smooth;
 }
 
+.text-soutenance {
+  border: #ee99d4 2px solid;
+}
+
 .container {
   max-width: 1280px;
   margin: auto;
